@@ -37,8 +37,8 @@ python HSI_test/tsetHSI.py  --script_name HDSP --dataset_name HSItest --yaml_nam
 
 ### Citation
 If these codes are helpful for you, please cite this paper:
-BibTex Format:
 
+BibTex Format:
  ```bash
 @ARTICLE{10798510,
   author={Yao, Rui and Zhang, Lu and Zhou, Yong and Zhu, Hancheng and Zhao, Jiaqi and Shao, Zhiwen},
