@@ -15,13 +15,15 @@ Download the pretrained foundation model (OSTrack) and put it under ./pretrained
 python tracking/train.py --script HDSP --config hdsp_deep --save_dir ./output --mode multiple --nproc_per_node 2
 ***
 ##Testing
+***
 Modify the <DATASET_PATH> and <SAVE_PATH>
 python HSI_test/tsetHSI.py  --script_name HDSP --dataset_name HSItest --yaml_name hdsp_deep
 ***
 #Citation
+***
 If these codes are helpful for you, please cite this paper:
 BibTex Format:
-
+ ```bash
 @ARTICLE{10798510,
   author={Yao, Rui and Zhang, Lu and Zhou, Yong and Zhu, Hancheng and Zhao, Jiaqi and Shao, Zhiwen},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
@@ -30,3 +32,4 @@ BibTex Format:
   volume={63},
   number={5500612},
   pages={1-12}}
+ ```
