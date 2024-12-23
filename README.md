@@ -1,6 +1,6 @@
-##Hyperspectral Object Tracking with Dual-Stream Prompt
+## Hyperspectral Object Tracking with Dual-Stream Prompt
 
-###Installation
+### Installation
 
 Create and activate a conda environment:
  ```bash
@@ -11,7 +11,7 @@ bash install_hdsp.sh
  ```
 ***
 
-###Path Setting
+### Path Setting
 Run the following command to set paths
 cd <PATH_of_HDSP>
  ```bash
@@ -19,7 +19,7 @@ python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data
  ```
 ***
 
-###Training
+### Training
 Download the pretrained foundation model (OSTrack) and put it under ./pretrained/.
  ```bash
 python tracking/train.py --script HDSP --config hdsp_deep --save_dir ./output --mode multiple --nproc_per_node 2
@@ -35,7 +35,7 @@ python HSI_test/tsetHSI.py  --script_name HDSP --dataset_name HSItest --yaml_nam
 
 ***
 
-###Citation
+### Citation
 If these codes are helpful for you, please cite this paper:
 BibTex Format:
 
